@@ -1,0 +1,13 @@
+{
+  "num_trials": 20,
+  "hyperparameters": [
+    {
+      "name": "var_smoothing",
+      "short_desc": "Portion of the largest variance of all features that is added to variances for calculation stability.",
+      "type": "real",
+      "search_type": "log-uniform",
+      "range_low": 5e-10,
+      "range_high": 1e-6
+    }
+  ]
+}
